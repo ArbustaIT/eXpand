@@ -1,5 +1,0 @@
-serenity.project.name=Serenity and JUnit Quick Start
-serenity.test.root=starter
-webdriver.driver=chrome
-webdriver.chrome.driver = C:\\automation\\chromedriver.exe
-serenity.test.root=starter.steps

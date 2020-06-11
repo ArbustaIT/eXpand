@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="starter.math.Runner_Demo" skipped="0" tests="1" time="13.18" timestamp="2020-02-21 09:13:38"><testcase classname="starter.math.Runner_Demo" name="Prueba de loguearse"><failure message="PASS" type="java.lang.AssertionError">PASS</failure><system-err>PASS&#13;
-starter.math.Runner_Demo.Test_Loguearse(Runner_Demo.java:55)&#13;
-org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
-org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
-org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
-</system-err></testcase></testsuite>

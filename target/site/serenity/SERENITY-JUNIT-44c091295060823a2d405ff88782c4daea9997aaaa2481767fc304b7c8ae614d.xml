@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.expand.test.Test_Login" skipped="0" tests="3" time="69.65" timestamp="2020-05-19 11:22:25"><testcase classname="com.expand.test.Test_Login" name="Test login contraseña vacío"><failure message="&#10;Expected: not is &quot;http://canalesdigitales.expand/frontEnd/panel&quot;&#10;     but: was &quot;http://canalesdigitales.expand/frontEnd/panel&quot;" type="java.lang.AssertionError">
+Expected: not is "http://canalesdigitales.expand/frontEnd/panel"
+     but: was "http://canalesdigitales.expand/frontEnd/panel"</failure><system-err>
+Expected: not is "http://canalesdigitales.expand/frontEnd/panel"
+     but: was "http://canalesdigitales.expand/frontEnd/panel"&#13;
+com.expand.test.Test_Login.Test_Login_Contraseña_vacío(Test_Login.java:106)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+</system-err></testcase><testcase classname="com.expand.test.Test_Login" name="Test login usuario vacío"/><testcase classname="com.expand.test.Test_Login" name="Test login correcto"/></testsuite>
