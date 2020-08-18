@@ -74,8 +74,9 @@ public class Test_Login {
 		  Fer.can(BrowseTheWeb.with(suNavegador));
 		  Fer.attemptsTo(Open.browserOn().the(login),
 				  Enter.keyValues(Usuario).into(login.Txt_Usuario),
-				  Enter.keyValues(Contraseña).into(login.Txt_Contraseña),
+				  Enter.keyValues(Contraseña).into(login.Txt_Contraseña), 
 				  Click.on(login.BTN_Ingresar)); 
+		 
 		  //then(Fer).should(eventually(seeThat(Pagina.urlActual(), is("http://canalesdigitales.expand/frontEnd/panel"))));
 
 	}

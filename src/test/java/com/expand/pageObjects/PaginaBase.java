@@ -17,4 +17,6 @@ public class PaginaBase extends PageObject {
 	 public String chequearTituloDePagina() {
 		 return getTitle();
 	 }
+	 
+	 
 }

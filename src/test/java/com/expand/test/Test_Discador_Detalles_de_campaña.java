@@ -167,6 +167,10 @@ public class Test_Discador_Detalles_de_campaña {
 				, is(Fer.recall("Campaña_Seleccionada").toString()))));
 	}
 
+	@Test
+	public void Test_vacío() {
+		
+	}
 
 
 	@After
