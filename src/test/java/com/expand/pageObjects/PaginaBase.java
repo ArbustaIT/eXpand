@@ -5,9 +5,9 @@ import org.openqa.selenium.WebDriver;
 import net.serenitybdd.core.pages.PageObject;
 
 public class PaginaBase extends PageObject {
-	public PaginaBase(WebDriver driver) {
-		super(driver);
-	}
+//	public PaginaBase(WebDriver driver) {
+//		super(driver);
+//	}
 
 	//Clase con funcionalidades que van a tener todas las páginas que vamos usar dentro del Page Object.
 	 public void compararTituloDePaginaEsperado(String tituloEsperado) {

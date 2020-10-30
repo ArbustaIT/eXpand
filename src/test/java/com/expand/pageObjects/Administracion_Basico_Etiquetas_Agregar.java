@@ -6,11 +6,6 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class Administracion_Basico_Etiquetas_Agregar extends Home_Portal {
 
-	public Administracion_Basico_Etiquetas_Agregar(WebDriver driver) {
-		super(driver);
-		// TODO Auto-generated constructor stub
-	}
-
 	public Target txt_Nombre = Target.the("el campo 'Nombre'").locatedBy("//mat-form-field[1]/div[1]/div[1]/div[3]/input[1]");
 	public Target txt_descripción = Target.the("el campo 'Descripción'").locatedBy("//mat-form-field[2]/div[1]/div[1]/div[3]/input[1]");
 	public Target nud_Etiquetados = Target.the("el campo 'Etiquetados'").locatedBy("//input[@id='mat-input-14']");

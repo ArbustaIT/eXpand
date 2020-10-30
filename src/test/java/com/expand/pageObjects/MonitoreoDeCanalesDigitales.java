@@ -6,10 +6,6 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class MonitoreoDeCanalesDigitales extends Home_Portal {
 
-	public MonitoreoDeCanalesDigitales(WebDriver driver) {
-		super(driver);
-		// TODO Auto-generated constructor stub
-	}
 	public static class Agentes{
 		public static Target sel_FechaInicio 	= Target.the("la fecha de inicio").locatedBy("//input[@id='mat-input-8']");
 		public static Target sel_FechaFin 		= Target.the("la fecha de fin").locatedBy("//input[@id='mat-input-9']");

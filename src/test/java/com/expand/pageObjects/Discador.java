@@ -24,8 +24,7 @@ public class Discador extends PaginaBase {
 	private static WebDriver driver;
 	
 	public Discador(WebDriver driver) {
-		super(driver);
-		this.driver = getDriver();
+
 		wait = new WebDriverWait(getDriver(),10);
 		// TODO Auto-generated constructor stub
 	}

@@ -13,12 +13,8 @@ import net.serenitybdd.screenplay.targets.Target;
 public class Login_Portal_Devel extends PaginaBase{
 	public Target Txt_Usuario = Target.the("Caja de texto 'Usuario'").located(By.id("mat-input-0"));
 	public Target Txt_Contraseña = Target.the("Caja de texto 'Contraseña'").located(By.id("mat-input-1"));
-	public Target BTN_Ingresar = Target.the("Botón 'Ingresar'").located(By.xpath("/html[1]/body[1]/expand-app-root[1]/expand-app-authentication[1]/expand-app-login[1]/mat-card[1]/mat-card-content[1]/form[1]/button[1]"));
+	public Target BTN_Ingresar = Target.the("Botón 'Ingresar'").located(By.xpath("//expand-app-login[1]/form[1]/button[1]"));
 	//public Target Lbl_OlvideMiContraseña = Target.the("Link 'Olvide miContraseña'").located(By.id("login_loginForm_forgotPasswordButton_button"));
 
-	public Login_Portal_Devel(WebDriver driver) {
-		super(driver);
-		// TODO Auto-generated constructor stub
-	}
 	
 }

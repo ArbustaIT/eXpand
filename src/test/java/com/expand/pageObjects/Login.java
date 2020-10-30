@@ -13,12 +13,8 @@ import net.serenitybdd.screenplay.targets.Target;
 public class Login extends PaginaBase{
 	public Target Txt_Usuario = Target.the("Caja de texto 'Usuario'").located(By.id("login_loginForm_user"));
 	public Target Txt_Contraseña = Target.the("Caja de texto 'Contraseña'").located(By.id("login_loginForm_password"));
-	public Target BTN_Ingresar = Target.the("Botón 'Ingresar'").located(By.id("login_loginForm_enterButton_button"));
+	public Target BTN_Ingresar = Target.the("Botón 'Ingresar'").located(By.id("//a[@id='login_loginForm_enterButton_button']"));
 	public Target Lbl_OlvideMiContraseña = Target.the("Link 'Olvide miContraseña'").located(By.id("login_loginForm_forgotPasswordButton_button"));
 
-	public Login(WebDriver driver) {
-		super(driver);
-		// TODO Auto-generated constructor stub
-	}
-	
+
 }

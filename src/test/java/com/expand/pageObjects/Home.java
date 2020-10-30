@@ -6,10 +6,7 @@ import org.openqa.selenium.WebDriver;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class Home extends PaginaBase {
-	public Home(WebDriver driver) {
-		super(driver);
-		// TODO Auto-generated constructor stub
-	}
+
 	public static Target MNU_Administración;
 	public static Target MNU_Monitoreo;
 	public static Target MNU_Listado_de_campañas;
