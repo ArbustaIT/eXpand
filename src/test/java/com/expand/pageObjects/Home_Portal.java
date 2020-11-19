@@ -21,11 +21,6 @@ import net.serenitybdd.screenplay.actions.*;
 
 
 public class Home_Portal extends PaginaBase {
-//public Home_Portal(WebDriver driver) {
-//		super(driver);
-//		// TODO Auto-generated constructor stub
-//	}
-
 
 public static Target menu =Target.the("el Menú principal").locatedBy("//mat-toolbar[@class='top-bar mat-toolbar mat-primary mat-toolbar-single-row']//button[@class='mat-icon-button']");
 

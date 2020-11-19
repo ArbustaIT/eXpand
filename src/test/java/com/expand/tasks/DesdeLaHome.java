@@ -7,7 +7,8 @@ import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.Click;
+import com.expand.interactions.*;
+//import net.serenitybdd.screenplay.actions.Click;
 import net.thucydides.core.annotations.Step;
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
 
@@ -26,10 +27,10 @@ public class DesdeLaHome implements Task {
 	@Step("{0} se dirige a Administración > Básico > Etiquetas.")
 	public <T extends Actor> void performAs(T actor) {
 		// TODO Auto-generated method stub
-		actor.attemptsTo(Click.on(home_portal.menu),
-				Click.on(home_portal.Administracion),
-				Click.on(home_portal.Administracion_Basico),
-				Click.on(home_portal.Administracion_Basico_Etiquetas)
+		actor.attemptsTo(Click.en(home_portal.menu),
+				Click.en(home_portal.Administracion),
+				Click.en(home_portal.Administracion_Basico),
+				Click.en(home_portal.Administracion_Basico_Etiquetas)
 				);
 		actor.asksFor(the(etiquetas.celda(1))).isCurrentlyVisible();
 	}
