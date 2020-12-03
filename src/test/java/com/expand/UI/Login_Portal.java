@@ -1,4 +1,4 @@
-package com.expand.pageObjects;
+package com.expand.UI;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +10,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 import net.serenitybdd.screenplay.targets.Target;
 
 @DefaultUrl("http://canalesdigitales.expand/expand")
+//@DefaultUrl("http://canalesdigitales-devel.expand/expand/")
 public class Login_Portal extends PaginaBase{
 	public static Target Txt_Usuario = Target.the("La caja de texto 'Usuario'").located(By.id("mat-input-0"));
 	public Target Txt_Contraseña = Target.the("La caja de texto 'Contraseña'").located(By.id("mat-input-1"));

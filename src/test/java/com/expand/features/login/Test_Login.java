@@ -13,11 +13,9 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
-import com.expand.pageObjects.*;
+import com.expand.UI.*;
 import com.expand.questions.*;
 import com.expand.steps.*;
-//import com.framework.questions.Pagina;
-import com.expand.pageObjects.*;
 
 import net.serenitybdd.core.pages.PageObject;
 // Actor, habilidades, preguntas, acctiones y tareas de Serrenity Screenplay

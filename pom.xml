@@ -16,7 +16,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- Feteamos la version de serenity -->
-		<serenity.version>2.0.48</serenity.version>
+		<serenity.version>2.3.2</serenity.version>
 	</properties>
 
 	<dependencies>

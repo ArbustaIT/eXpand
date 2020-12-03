@@ -3,13 +3,12 @@ package com.expand.tasks;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
 
-import com.expand.pageObjects.Login_Portal;
-
-
 import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
+
+import com.expand.UI.Login_Portal;
 //
 //import net.serenitybdd.screenplay.actions.Click;
 import com.expand.interactions.Click;

@@ -1,4 +1,4 @@
-package com.expand.pageObjects;
+package com.expand.UI;
 
 import static org.assertj.core.api.Assertions.*;
 import org.openqa.selenium.WebDriver;

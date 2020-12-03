@@ -2,8 +2,8 @@ package com.expand.questions;
 
 import org.openqa.selenium.WebDriver;
 
-import com.expand.pageObjects.Login_Portal;
-import com.expand.pageObjects.Login_Portal_Devel;
+import com.expand.UI.Login_Portal;
+import com.expand.UI.Login_Portal_Devel;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;

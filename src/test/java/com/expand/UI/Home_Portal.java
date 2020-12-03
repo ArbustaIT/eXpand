@@ -1,4 +1,4 @@
-package com.expand.pageObjects;
+package com.expand.UI;
 
 import org.apache.pdfbox.contentstream.operator.graphics.MoveTo;
 import org.openqa.selenium.By;
@@ -22,7 +22,7 @@ import net.serenitybdd.screenplay.actions.*;
 
 public class Home_Portal extends PaginaBase {
 
-public static Target menu =Target.the("el Menú principal").locatedBy("//mat-toolbar[@class='top-bar mat-toolbar mat-primary mat-toolbar-single-row']//button[@class='mat-icon-button']");
+public static Target menu =Target.the("el Menú principal").locatedBy("//expand-app-toolbar[1]/div[1]/mat-toolbar[1]/button[1]"); 	//"//mat-toolbar[@class='top-bar mat-toolbar mat-primary mat-toolbar-single-row']//button[@class='mat-icon-button']");
 
 public static Target portal 				= Target.the("El menú ").locatedBy("");
 public static Target portal_Canaldigital	= Target.the("El menú ").locatedBy("");
@@ -30,8 +30,8 @@ public static Target portal_Canaldigital	= Target.the("El menú ").locatedBy("")
 public static Target MonitoreoDeCanalesDigitales			= Target.the("El menú ").locatedBy("");
 public static Target MonitoreoDeCanalesDigitales_Agentes	= Target.the("El menú ").locatedBy("");
 
-public static Target Administracion 					= Target.the("El menú 'Administración' ").locatedBy("//mat-expansion-panel-header[@id='mat-expansion-panel-header-5']//mat-panel-title[@class='mat-expansion-panel-header-title']");
-public static Target Administracion_Basico				= Target.the("El menú 'Básico' ").locatedBy("//mat-expansion-panel-header[@id='mat-expansion-panel-header-6']//mat-panel-title[@class='mat-expansion-panel-header-title']");
+public static Target Administracion 					= Target.the("El menú 'Administración' ").locatedBy("//span[contains(text(),'Administración')]");
+public static Target Administracion_Basico				= Target.the("El menú 'Básico' ").locatedBy("//span[contains(text(),'Básico')]");	//"//mat-expansion-panel-header[@id='mat-expansion-panel-header-6']//mat-panel-title[@class='mat-expansion-panel-header-title']");
 public static Target Administracion_Basico_Etiquetas	= Target.the("El menú 'Etiquetas' ").locatedBy("//span[contains(text(),'Etiquetas')]");
 public static Target Administracion_Basico_Pausas		= Target.the("El menú ").locatedBy("");
 public static Target Administracion_Basico_Localidades	= Target.the("El menú ").locatedBy("");

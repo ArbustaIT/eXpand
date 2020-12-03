@@ -1,9 +1,9 @@
-package com.expand.pageObjects.administracion.Basico;
+package com.expand.UI.administracion.Basico;
 
 import org.openqa.selenium.WebDriver;
 
-import com.expand.pageObjects.Administracion;
-import com.expand.pageObjects.Home_Portal;
+import com.expand.UI.Administracion;
+import com.expand.UI.Home_Portal;
 
 import net.serenitybdd.screenplay.targets.Target;
 

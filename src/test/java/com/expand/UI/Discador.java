@@ -1,4 +1,4 @@
-package com.expand.pageObjects;
+package com.expand.UI;
 
 import org.apache.pdfbox.contentstream.operator.graphics.MoveTo;
 import org.openqa.selenium.By;

@@ -16,9 +16,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.expand.pageObjects.*;
-import com.expand.pageObjects.Discador.Detalles_Campaña;
-import com.expand.pageObjects.Discador.campañas_Activas;
+import com.expand.UI.*;
+import com.expand.UI.Discador.Detalles_Campaña;
+import com.expand.UI.Discador.campañas_Activas;
 import com.expand.questions.*;
 import com.expand.steps.*;
 //import com.framework.questions.Pagina;

@@ -1,6 +1,6 @@
-package com.expand.pageObjects.administracion.Basico;
+package com.expand.UI.administracion.Basico;
 
-import com.expand.pageObjects.Administracion;
+import com.expand.UI.Administracion;
 
 import net.serenitybdd.screenplay.targets.Target;
 

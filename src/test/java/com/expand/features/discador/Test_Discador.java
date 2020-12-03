@@ -17,9 +17,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.expand.pageObjects.*;
-import com.expand.pageObjects.Discador.Detalles_Campaña;
-import com.expand.pageObjects.Discador.campañas_Activas;
+import com.expand.UI.*;
+import com.expand.UI.Discador.Detalles_Campaña;
+import com.expand.UI.Discador.campañas_Activas;
 import com.expand.questions.*;
 import com.expand.steps.*;
 //import com.framework.questions.Pagina;
@@ -33,7 +33,6 @@ import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.questions.page.TheWebPage;
-import net.serenitybdd.screenplay.questions.UnresolvedTargetWebElementState;
 import net.serenitybdd.screenplay.questions.targets.TargetAttribute;
 import net.serenitybdd.screenplay.questions.targets.TargetAttributes;
 import net.serenitybdd.screenplay.questions.targets.TargetText;
@@ -45,7 +44,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Hit;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actions.Scroll;
-import net.serenitybdd.screenplay.questions.WebDriverQuestion;
+
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.*;
 import net.serenitybdd.screenplay.questions.*;
  
@@ -222,8 +221,8 @@ public class Test_Discador {
 		
 		then(Fer).should(
 				eventually(
-						seeThat(Text.of(Discador.Detalles_Campaña.LBL_Titulo).viewedBy(Fer).asAQuestion()
-								,is(Fer.recall("Nombre de la campaña").toString())
+						seeThat(TheValue.of(Discador.Detalles_Campaña.LBL_Titulo)
+								, is(equals(Fer.recall("Nombre de la campaña")))
 								)
 							)
 						);
